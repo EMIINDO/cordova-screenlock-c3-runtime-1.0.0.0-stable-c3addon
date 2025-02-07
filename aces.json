@@ -1,0 +1,29 @@
+{
+  "cordova": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "unlockscreen",
+        "scriptName": "Unlockscreen",
+        "highlight": false
+      },
+      {
+        "id": "lockscreen",
+        "scriptName": "Lockscreen",
+        "highlight": false,
+        "params": [
+          {
+            "id": "orientation",
+            "type": "combo",
+            "initialValue": "landscape",
+            "items": [
+              "landscape",
+              "portrait"
+            ]
+          }
+        ]
+      }
+    ],
+    "expressions": []
+  }
+}

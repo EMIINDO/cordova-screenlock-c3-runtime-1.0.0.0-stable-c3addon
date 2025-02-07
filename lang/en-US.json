@@ -1,0 +1,41 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Cordova Screen Lock Plugin",
+  "text": {
+    "plugins": {
+      "massivecube_cordovascreenlock": {
+        "name": "Cordova Screen Lock",
+        "description": "Screenlock - Cordova",
+        "help-url": "https://github.com/armandoalonso/c3IDE",
+        "properties": {},
+        "aceCategories": {
+          "cordova": "value"
+        },
+        "conditions": {},
+        "actions": {
+          "unlockscreen": {
+            "list-name": "Unlockscreen",
+            "display-text": "Unlock Screen",
+            "description": "Unlock Screen"
+          },
+          "lockscreen": {
+            "list-name": "Lockscreen",
+            "display-text": "Lock screen to {0}",
+            "description": "Lock screen",
+            "params": {
+              "orientation": {
+                "name": "Orientation",
+                "desc": "Orientation",
+                "items": {
+                  "landscape": "Landscape",
+                  "portrait": "Portrait"
+                }
+              }
+            }
+          }
+        },
+        "expressions": {}
+      }
+    }
+  }
+}
